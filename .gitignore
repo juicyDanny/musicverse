@@ -216,3 +216,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Audio crudo: nunca al repo
+data/raw/
+*.wav
+*.mp3
+*.flac
+
+# Embeddings intermedios
+*.npy
+*.npz
+
+# Entorno Python
+.venv/
