@@ -229,3 +229,4 @@ data/raw/
 
 # Entorno Python
 .venv/
+/data/
