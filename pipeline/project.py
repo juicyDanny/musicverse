@@ -198,7 +198,7 @@ def main() -> None:
         figure.colorbar(dots, label="noise score")
         axes.set_title("Coloured by recording noise: look for a colour-sorted map")
         path = PROJECT_ROOT / "data" / "preview.png"
-        figure.savefig(path, dpi=120, bbox_inches="tight")
+        figure.savefig(path, dpi=72, bbox_inches="tight")
         print(f"saved preview to {path.relative_to(PROJECT_ROOT)}")
 
 
